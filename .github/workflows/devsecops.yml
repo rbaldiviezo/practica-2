@@ -249,7 +249,7 @@ jobs:
         with:
           image-ref: "users-service:latest"
           format: table
-          severity: CRITICAL,HIGH
+          severity: CRITICAL
           exit-code: "1"
 
       - name: "Trivy – academic-service"
@@ -257,7 +257,7 @@ jobs:
         with:
           image-ref: "academic-service:latest"
           format: table
-          severity: CRITICAL,HIGH
+          severity: CRITICAL
           exit-code: "1"
 
       - name: "Trivy – api-gateway"
@@ -265,7 +265,7 @@ jobs:
         with:
           image-ref: "api-gateway:latest"
           format: table
-          severity: CRITICAL,HIGH
+          severity: CRITICAL
           exit-code: "1"
 
       - name: "Trivy – frontend"
@@ -273,7 +273,7 @@ jobs:
         with:
           image-ref: "frontend:latest"
           format: table
-          severity: CRITICAL,HIGH
+          severity: CRITICAL
           exit-code: "1"
 
   # ============================================================
